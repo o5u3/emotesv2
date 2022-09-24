@@ -18,9 +18,9 @@ local OptionC = Instance.new("TextButton")
 --Properties:
 
 FEVS.Name = "FEVS"
-FEVS.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+FEVS.Parent = game.CoreGui
 FEVS.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-local fevDir = game:GetService("Players").LocalPlayer.PlayerGui.FEVS
+local fevDir = game:GetService("CoreGui").FEVS
 
 Frame.Parent = FEVS
 Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
